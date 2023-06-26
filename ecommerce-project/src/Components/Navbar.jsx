@@ -25,7 +25,6 @@ export const Navbar = () => {
             <button className="nav-btn" onClick={showNavbar}>
             <FaBars/>
             </button>
-            
         </div>
     )
 };
