@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
 import "./Navbar.css";
+import logo from './../Images/Logo.jpg';
 
 
 export const Navbar = () => {
@@ -11,10 +12,11 @@ export const Navbar = () => {
     }
     return (
         <div className="container">
-            <h1>Dee InkFlow</h1>
+            <div className="logo"><a href ="/"><img src={logo} alt="ethereal logo"/></a>
+            </div>
             <nav ref={navRef}>
                 <a href="/">Home</a>
-                <a href="/contact">ContactUs</a>
+                <a href="/contact">Contact Us</a>
                 <a href="/portfolio">Portfolio</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                 <FaTimes/>

@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 255, 255);
+  
 }
 
 code {
@@ -13,7 +15,7 @@ code {
 }
 /* custom variables for color scheme*/
 :root {
-  --primaryColor:rgb(83, 83, 83);
-  --secondaryColor: black;
+  --primaryColor:rgb(0, 0, 0);
+  --secondaryColor: rgb(83, 255, 48);
   --textColor: white;
 }
