@@ -6,6 +6,7 @@ import { Home } from './Pages/Home';
 import { Contact } from './Pages/Contact';
 import { Portfolio } from './Pages/Portfolio';
 /* page routing and components exported here (to be visible in every page)*/ 
+// testing push, new account klint
 function App() {
   return (
     <div className="App">
