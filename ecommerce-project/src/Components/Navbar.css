@@ -1,4 +1,20 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    flex: 1;
+}
 
+.logo img {
+    display: flex;
+    width: 280px;
+    height:80px;
+    margin: 2rem;
+}
 .container{
     display: flex;
     align-items: center;
@@ -7,18 +23,42 @@
     padding: 0 2rem;
     background-color: var(--primaryColor);
     color: var(--textColor);
+    
+    
 }
 
 nav a{
-    margin: 0 1rem;
+    margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    position: relative;
+    
 }
 
 nav a:hover{
     color: var(--secondaryColor);
+    background-color: black;
 }
 
+nav a::after{
+    content: ' ';
+    height: 2px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+nav a:hover::after{
+    opacity: 1;
+    
+}
 .container .nav-btn{
     padding: 2px;
     cursor: pointer;
@@ -58,6 +98,7 @@ nav a:hover{
         background-color: var(--primaryColor);
         transition: 0.5s;
         transform: translateX(100vh);
+        
     }
 
     .container .responsive{
@@ -73,5 +114,6 @@ nav a:hover{
 
     nav a{
         font-size: 1.5rem;
+        
     }
 }
