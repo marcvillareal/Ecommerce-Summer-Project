@@ -1,5 +1,21 @@
-body{
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
   color: white;
   text-align: center;
   background-color: black;
+}
+
+.search-container {
+  padding-top: 1vh;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
 }
