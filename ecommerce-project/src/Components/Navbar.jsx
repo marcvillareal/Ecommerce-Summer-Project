@@ -19,7 +19,7 @@ export const Navbar = () => {
       <nav ref={navRef}>
         <a href="/">Home</a>
         <a href="/contact">Contact Us</a>
-        <a href="/portfolio">Log In</a>
+        <a href="/login">Log In</a>
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
