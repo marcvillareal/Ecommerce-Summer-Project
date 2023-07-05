@@ -7,8 +7,7 @@
 }
 
 .logo {
-    flex: 1;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     margin-inline-end: 20%;
@@ -115,5 +114,19 @@ nav {
 
   nav a {
     font-size: 1.5rem;
+  }
+  .logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    
+  }
+  .logo img {
+    width: 275px;
+    height: 70px;
+    max-width: 275px;
   }
 }
