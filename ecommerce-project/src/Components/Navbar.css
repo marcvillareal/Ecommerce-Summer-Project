@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Outfit&display=swap');
 *,
 *::before,
 *::after {
@@ -6,38 +7,41 @@
   box-sizing: border-box;
 }
 
+
 .logo {
-    
     justify-content: center;
     align-items: center;
-    margin-inline-end: 20%;
+    margin-inline-end: -2%;
     writing-mode: horizontal-tb;
     direction: rtl;
+    padding: 1rem;
   }
 
 .logo img {
-  width: 275px;
-  height: 70px;
-  max-width: 275px;
+  width: 320px;
+  height: 90px;
+  max-width: 320px;
 }
 
 .container {
-  display: flex;
+  display: block;
   margin: 0px auto;
   justify-content: center;
-  height: 150px;
-  padding: 0 2rem;
+  height: 170px;
   background-color: var(--primaryColor);
   color: var(--textColor);
 }
 
 nav a {
-  margin: 0 2rem;
+  margin: 0 3rem;
   color: var(--textColor);
   text-decoration: none;
   font-size: 14px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
   position: relative;
+  align-self: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2vh;
 }
 
 nav a:hover {
@@ -72,12 +76,15 @@ nav a:hover::after {
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
+  
 }
 
 .container div,
 nav {
-  display: flex;
+  display: block;
   align-items: center;
+  justify-content: center;
+  
 }
 
 @media only screen and (max-width: 1024px) {

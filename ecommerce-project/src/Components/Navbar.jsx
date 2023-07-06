@@ -1,5 +1,8 @@
 import React, { useRef } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
+import {BsCart} from "react-icons/bs";
+import {AiOutlineUser, AiOutlineHome} from "react-icons/ai";
+import {RiArrowDropDownLine} from "react-icons/ri";
 import "./Navbar.css";
 import logo from "./../Images/Logo.jpg";
 
@@ -13,13 +16,16 @@ export const Navbar = () => {
     <div className="container" div align="center">
 
       <div className="logo">
-        <img src={logo} alt="ethereal logo" />
+        <a href="/"> <img src={logo} alt="ethereal logo" /></a>
       </div>
 
-      <nav ref={navRef}>
-        <a href="/">Home</a>
+      <nav ref={navRef}>  
+        <a href="/"><AiOutlineHome/>&nbsp;&nbsp;&nbsp;&nbsp;Home </a>
+        <a href="/products">Products&nbsp;&nbsp;<RiArrowDropDownLine/></a>
         <a href="/contact">Contact Us</a>
-        <a href="/login">Log In</a>
+        <a href="/cart"><BsCart/>&nbsp;&nbsp;&nbsp;&nbsp;Cart</a>
+        <a href="/login"><AiOutlineUser/>&nbsp;&nbsp;&nbsp;&nbsp;Login</a>
+        
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
