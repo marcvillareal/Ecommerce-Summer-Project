@@ -23,3 +23,24 @@ code {
   --secondaryColor: rgb(83, 255, 48);
   --textColor: white;
 }
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: #fff;
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  margin: 0 auto;
+  height: 40vh;
+  width: 60%;
+}
