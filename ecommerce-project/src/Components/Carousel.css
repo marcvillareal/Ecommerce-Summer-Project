@@ -1,31 +1,31 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
-  h2 {
-    font-size: 60px;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-  }
-  h3 {
-    font-size: 40px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    padding: 150px 0;
-    margin: 0px auto;
-    font-family: sans-serif;
-    margin: 0 50px;
-  }
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 60px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  font-size: 40px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 150px 0;
+  margin: 0px auto;
+  font-family: sans-serif;
+  margin: 0 50px;
+}
 
-  .slick-dots li.slick-active button:before {
-    color: lightgreen;
-  }
+.slick-dots li.slick-active button:before {
+  color: lightgreen;
+}
 
 .slick-dots li button:before {
-    color: #fff;
-    font-size: 0.6rem;
-    top: 2 rem;
+  color: #fff;
+  font-size: 0.6rem;
+  top: 2 rem;
 }
