@@ -16,6 +16,10 @@ export const Carousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 8000,
+    arrows: false,
+    centerMode: true,
+    centerPadding: "0",
+    cssEase: "linear",
   };
   return (
     <>
@@ -24,7 +28,12 @@ export const Carousel = () => {
           <Slider {...settings}>
             {Images.map((item) => (
               <div key={item.id}>
-                <img src={item.src} alt={item.alt} className="img" />
+                <img
+                  src={item.src}
+                  alt={item.alt}
+                  style={{ userSelect: "none", pointerEvents: "none" }}
+                  className="img"
+                />
               </div>
             ))}
           </Slider>

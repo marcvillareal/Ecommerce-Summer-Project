@@ -28,12 +28,3 @@ code {
   text-align: center;
   margin-bottom: 30px;
 }
-
-.img {
-  display: flex;
-  margin: 0 auto;
-  height: 41vh;
-  width: 75%;
-  overflow-clip-margin: content-box;
-  overflow: clip;
-}

@@ -29,3 +29,15 @@ h3 {
   font-size: 0.6rem;
   top: 2 rem;
 }
+
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+  height: 41vh;
+  width: 100%;
+}
+
+.slick-slider {
+  width: 75%; /* Adjust the width value as per your requirement */
+  margin: 0 auto; /* Optional: Center the slides horizontally */
+}
