@@ -27,6 +27,7 @@
   margin: 0px auto;
   justify-content: center;
   height: 180px;
+  width: 1000%;
   background-color: var(--primaryColor);
   color: var(--textColor);
 }
@@ -43,7 +44,6 @@ nav a {
   font-family: "Exo 2", sans-serif;
   font-size: 2vh;
 }
-
 
 nav a:hover {
   color: var(--secondaryColor);
@@ -97,7 +97,7 @@ nav {
     top: 0;
     left: 0;
     height: 50%;
-    width: 100%;
+    width: 150%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

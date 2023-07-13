@@ -16,14 +16,17 @@ function App() {
   return (
     <main className="App">
       <div>
-        <div className="nav-bar">
+        <div className="nav-bar-container">
           <Navbar />
         </div>
         <div className="search-container">
           <Search />
         </div>
-        <div className="carousel">
+        <div className="carousel-container">
           <Carousel />
+        </div>
+        <div className="categories-container">
+
         </div>
         <Routes>
           <Route path="/" element={<Home />} />

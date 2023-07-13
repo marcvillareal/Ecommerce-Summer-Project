@@ -20,6 +20,11 @@ h3 {
   margin: 0 50px;
 }
 
+.slick-dots {
+  background-color: black;
+  top: 380px;
+}
+
 .slick-dots li.slick-active button:before {
   color: lightgreen;
 }
@@ -38,6 +43,6 @@ h3 {
 }
 
 .slick-slider {
-  width: 75%; /* Adjust the width value as per your requirement */
+  width: 60%; /* Adjust the width value as per your requirement */
   margin: 0 auto; /* Optional: Center the slides horizontally */
 }

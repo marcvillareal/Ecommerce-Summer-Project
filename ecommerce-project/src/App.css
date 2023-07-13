@@ -8,14 +8,27 @@ body {
   color: white;
   text-align: center;
   background-color: black;
+  margin: 0px;
+  padding: 0px;
 }
 
 .search-container {
-  padding-top: 1vh;
   width: 40%;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-width: 200px;
+}
+
+.nav-bar-container {
+  background-color: var(--primaryColor);
+}
+
+.categories-container {
+  background-color: white;
+  height: 1500px;
+  width: 1140px;
+  margin: auto;
+  display: flex;
 }

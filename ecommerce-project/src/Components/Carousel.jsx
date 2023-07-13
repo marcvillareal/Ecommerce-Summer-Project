@@ -24,7 +24,6 @@ export const Carousel = () => {
   return (
     <>
       <div className="content">
-        <div className="container">
           <Slider {...settings}>
             {Images.map((item) => (
               <div key={item.id}>
@@ -37,7 +36,6 @@ export const Carousel = () => {
               </div>
             ))}
           </Slider>
-        </div>
       </div>
     </>
   );
