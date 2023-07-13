@@ -23,7 +23,7 @@ function App() {
           <Search />
         </div>
         <div className="carousel">
-        <Carousel />
+          <Carousel />
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
