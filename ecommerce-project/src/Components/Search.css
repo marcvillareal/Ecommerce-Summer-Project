@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .input-wrapper {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 150%;
   border-radius: 10px;
   height: 2.2rem;

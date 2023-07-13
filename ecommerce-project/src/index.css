@@ -33,7 +33,7 @@ code {
   display: flex;
   margin: 0 auto;
   height: 41vh;
-  width: 60%;
+  width: 75%;
   overflow-clip-margin: content-box;
   overflow: clip;
 }

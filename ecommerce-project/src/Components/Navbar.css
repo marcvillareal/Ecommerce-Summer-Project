@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Outfit&display=swap");
 *,
 *::before,
 *::after {
@@ -7,32 +7,32 @@
   box-sizing: border-box;
 }
 
-
 .logo {
-    justify-content: center;
-    align-items: center;
-    margin-inline-end: -2%;
-    writing-mode: horizontal-tb;
-    direction: rtl;
-    padding: 1rem;
-  }
+  justify-content: center;
+  align-items: center;
+  margin-inline-end: -2%;
+  writing-mode: horizontal-tb;
+  direction: rtl;
+  padding: 1rem;
+}
 
 .logo img {
-  width: 320px;
-  height: 90px;
-  max-width: 320px;
+  width: 280px;
+  height: 70px;
+  max-width: 280px;
 }
 
 .container {
   display: block;
   margin: 0px auto;
   justify-content: center;
-  height: 170px;
+  height: 180px;
   background-color: var(--primaryColor);
   color: var(--textColor);
 }
 
 nav a {
+  display: inline-block;
   margin: 0 3rem;
   color: var(--textColor);
   text-decoration: none;
@@ -40,9 +40,10 @@ nav a {
   letter-spacing: 0.2px;
   position: relative;
   align-self: center;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 2vh;
 }
+
 
 nav a:hover {
   color: var(--secondaryColor);
@@ -76,7 +77,6 @@ nav a:hover::after {
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
-  
 }
 
 .container div,
@@ -84,7 +84,6 @@ nav {
   display: block;
   align-items: center;
   justify-content: center;
-  
 }
 
 @media only screen and (max-width: 1024px) {
@@ -122,6 +121,7 @@ nav {
   nav a {
     font-size: 1.5rem;
   }
+  
   .logo {
     flex: 1;
     display: flex;
@@ -129,7 +129,6 @@ nav {
     align-items: center;
     margin: 1%;
     padding: 1%;
-    
   }
   .logo img {
     width: 275px;

@@ -15,12 +15,16 @@ import { Login } from "./Pages/Login";
 function App() {
   return (
     <main className="App">
-      <div className="max-w-lg">
-        <Navbar />
+      <div>
+        <div className="nav-bar">
+          <Navbar />
+        </div>
         <div className="search-container">
           <Search />
         </div>
+        <div className="carousel">
         <Carousel />
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />

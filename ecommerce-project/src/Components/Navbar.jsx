@@ -20,11 +20,11 @@ export const Navbar = () => {
       </div>
 
       <nav ref={navRef}>  
-        <a href="/"><AiOutlineHome/>&nbsp;&nbsp;&nbsp;&nbsp;Home </a>
-        <a href="/products">Products&nbsp;&nbsp;<RiArrowDropDownLine/></a>
+        <a href="/"><AiOutlineHome/>&nbsp;Home </a>
+        <a href="/products">Products&nbsp;<RiArrowDropDownLine/></a>
         <a href="/contact">Contact Us</a>
-        <a href="/cart"><BsCart/>&nbsp;&nbsp;&nbsp;&nbsp;Cart</a>
-        <a href="/login"><AiOutlineUser/>&nbsp;&nbsp;&nbsp;&nbsp;Login</a>
+        <a href="/cart"><BsCart/>&nbsp;Cart</a>
+        <a href="/login"><AiOutlineUser/>&nbsp;Login</a>
         
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
