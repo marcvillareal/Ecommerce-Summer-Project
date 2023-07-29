@@ -8,7 +8,8 @@ h2 {
   display: flex;
   justify-content: center;
 }
-h3 {
+/* Needs to have a class, as this is affecting every page globally ***commented out for now */
+/* h3 {
   font-size: 40px;
   background-color: blue;
   display: flex;
@@ -18,7 +19,7 @@ h3 {
   margin: 0px auto;
   font-family: sans-serif;
   margin: 0 50px;
-}
+} */
 
 .slick-dots {
   background-color: black;
